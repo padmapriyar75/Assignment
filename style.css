@@ -1,0 +1,13 @@
+div
+{
+  width: 500px;
+  margin: auto;
+}
+
+.border
+{
+text-align: center;
+border-width: 1px;
+border-color: black;
+border-style: solid;
+}
