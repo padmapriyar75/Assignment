@@ -1,0 +1,26 @@
+.quad1{
+  background-image: url(./images/packs-duffels.jpg);
+  width: 33.33%;
+  height: 100%;
+  float: left;
+  position: relative;
+  background-size: cover;
+}
+
+.quad2{
+  background-image: url(./images/packs-backpack1.png);
+  width: 33.33%;
+  height: 100%;
+  float: left;
+  position: relative;
+  background-size: cover;
+}
+
+.quad3{
+  background-image: url(./images/packs-rucksacks.jpg);
+  width: 33.33%;
+  height: 100%;
+  float: left;
+  position: relative;
+  background-size: cover;
+}
