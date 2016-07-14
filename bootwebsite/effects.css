@@ -1,0 +1,451 @@
+html,body {
+  height: 100%;
+}
+#backpack {
+  background-image: url('./images/backpack.jpg');
+  position: relative;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+#backpack:after {
+    content:' ';
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+}
+#backpack:hover:after {
+    opacity:1;
+}
+
+#rucksack {
+  background-image: url('./images/hiking.jpg');
+  position: relative;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+
+
+#rucksack:after {
+    content:' ';
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+}
+#rucksack:hover:after {
+    opacity:1;
+}
+
+#raincoat {
+   background-image: url('./images/rain.jpg');
+   position: relative;
+   background-size: cover;
+   width: 600px;
+   height: 300px;
+}
+
+#raincoat:after {
+    content:' ';
+    position:absolute;
+    width: 600px;
+    height: 300px;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+}
+#raincoat:hover:after {
+    opacity:1;
+}
+
+
+#accessories{
+  width: 300px;
+  height: 300px;
+  background-image: url('./images/accessories.jpg');
+  float: left;
+  position: relative;
+  background-size: cover;
+}
+
+
+
+#accessories:after {
+    content:' ';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+
+}
+#accessories:hover:after {
+    opacity:1;
+}
+
+#apparel{
+  width: 300px;
+  height: 300px;
+  background-image: url(./images/apparel.jpg);
+  float: right;
+  position: relative;
+  background-size: cover;
+  margin-right: 53px;
+}
+
+#apparel:after {
+    content:' ';
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+
+}
+#apparel:hover:after {
+    opacity:1;
+}
+
+#footwear{
+  float: left;
+  height: 100%;
+  margin-left: -10px;
+  background-image: url(./images/footwear.jpg);
+  position: relative;
+  background-size: cover;
+}
+
+#footwear:after {
+    content:' ';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+
+}
+#footwear:hover:after {
+    opacity:1;
+}
+@media (max-width: 480px) {
+  html,body {
+    height: 100%;
+  }
+  #backpack {
+    background-image: url('./images/backpack.jpg');
+    position: relative;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+  }
+
+  #backpack:after {
+      content:' ';
+      position:absolute;
+      width: 100px;
+      height: 100px;
+      top:0;
+      left:0;
+      background:rgba(0,0,0,0.6);
+      opacity:0;
+      transition: all 0.5s;
+  }
+  #backpack:hover:after {
+      opacity:1;
+  }
+
+  #rucksack {
+    background-image: url('./images/hiking.jpg');
+    position: relative;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+  }
+
+
+
+  #rucksack:after {
+      content:' ';
+      position:absolute;
+      width: 100px;
+      height: 100px;
+      top:0;
+      left:0;
+      background:rgba(0,0,0,0.6);
+      opacity:0;
+      transition: all 0.5s;
+  }
+  #rucksack:hover:after {
+      opacity:1;
+  }
+
+  #raincoat {
+     background-image: url('./images/rain.jpg');
+     position: relative;
+     background-size: cover;
+     width: 600px;
+     height: 100px;
+  }
+
+  #raincoat:after {
+      content:' ';
+      position:absolute;
+      width: 600px;
+      height: 100px;
+      top:0;
+      left:0;
+      background:rgba(0,0,0,0.6);
+      opacity:0;
+      transition: all 0.5s;
+  }
+  #raincoat:hover:after {
+      opacity:1;
+  }
+
+
+  #accessories{
+    width: 100px;
+    height: 100px;
+    background-image: url('./images/accessories.jpg');
+    float: left;
+    position: relative;
+    background-size: cover;
+  }
+
+
+
+  #accessories:after {
+      content:' ';
+      position:absolute;
+      width:100%; height:100%;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity:0;
+      transition: all 0.5s;
+
+  }
+  #accessories:hover:after {
+      opacity:1;
+  }
+
+  #apparel{
+    width: 100px;
+    height: 100px;
+    background-image: url(./images/apparel.jpg);
+    float: right;
+    position: relative;
+    background-size: cover;
+    margin-right: 53px;
+  }
+
+  #apparel:after {
+      content:' ';
+      position:absolute;
+      width: 100px;
+      height: 100px;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity:0;
+      transition: all 0.5s;
+
+  }
+  #apparel:hover:after {
+      opacity:1;
+  }
+
+  #footwear{
+    float: left;
+    height: 100%;
+    margin-left: -10px;
+    background-image: url(./images/footwear.jpg);
+    position: relative;
+    background-size: cover;
+  }
+
+  #footwear:after {
+      content:' ';
+      position:absolute;
+      width:100%; height:100%;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity:0;
+      transition: all 0.5s;
+
+  }
+  #footwear:hover:after {
+      opacity:1;
+  }
+
+
+}
+@media (max-width: 768px) {
+  #backpack {
+    background-image: url('./images/backpack.jpg');
+    position: relative;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+  }
+
+  #backpack:after {
+      content:' ';
+      position:absolute;
+      width: 200px;
+      height: 200px;
+      top:0;
+      left:0;
+      background:rgba(0,0,0,0.6);
+      opacity:0;
+      transition: all 0.5s;
+  }
+  #backpack:hover:after {
+      opacity:1;
+  }
+
+  #rucksack {
+    background-image: url('./images/hiking.jpg');
+    position: relative;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+  }
+
+
+
+  #rucksack:after {
+      content:' ';
+      position:absolute;
+      width: 100px;
+      height: 100px;
+      top:0;
+      left:0;
+      background:rgba(0,0,0,0.6);
+      opacity:0;
+      transition: all 0.5s;
+  }
+  #rucksack:hover:after {
+      opacity:1;
+  }
+
+  #raincoat {
+     background-image: url('./images/rain.jpg');
+     position: relative;
+     background-size: cover;
+     width: 600px;
+     height: 100px;
+  }
+
+  #raincoat:after {
+      content:' ';
+      position:absolute;
+      width: 600px;
+      height: 100px;
+      top:0;
+      left:0;
+      background:rgba(0,0,0,0.6);
+      opacity:0;
+      transition: all 0.5s;
+  }
+  #raincoat:hover:after {
+      opacity:1;
+  }
+
+
+  #accessories{
+    width: 100px;
+    height: 100px;
+    background-image: url('./images/accessories.jpg');
+    float: left;
+    position: relative;
+    background-size: cover;
+  }
+
+
+
+  #accessories:after {
+      content:' ';
+      position:absolute;
+      width:100%; height:100%;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity:0;
+      transition: all 0.5s;
+
+  }
+  #accessories:hover:after {
+      opacity:1;
+  }
+
+  #apparel{
+    width: 100px;
+    height: 100px;
+    background-image: url(./images/apparel.jpg);
+    float: right;
+    position: relative;
+    background-size: cover;
+    margin-right: 53px;
+  }
+
+  #apparel:after {
+      content:' ';
+      position:absolute;
+      width: 100px;
+      height: 100px;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity:0;
+      transition: all 0.5s;
+
+  }
+  #apparel:hover:after {
+      opacity:1;
+  }
+
+  #footwear{
+    float: left;
+    height: 100%;
+    margin-left: -10px;
+    background-image: url(./images/footwear.jpg);
+    position: relative;
+    background-size: cover;
+  }
+
+  #footwear:after {
+      content:' ';
+      position:absolute;
+      width:100%; height:100%;
+      top:0; left:0;
+      background:rgba(0,0,0,0.6);
+      opacity:0;
+      transition: all 0.5s;
+
+  }
+  #footwear:hover:after {
+      opacity:1;
+  }
+
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}

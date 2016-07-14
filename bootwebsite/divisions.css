@@ -1,0 +1,23 @@
+.redb{
+  background-image:url(./images/backpack.jpg);
+}
+
+.blueb{
+  background-image: url(./images/hiking.jpg);
+}
+
+.greyb{
+  background-image:url(./images/rain.jpg);
+}
+
+.yellowb{
+  background-image:url(./images/footwear.jpg);
+}
+
+.g1{
+  background-image:url(./images/apparel.jpg);
+}
+
+.g2{
+  background-image:url(./images/accessories.jpg);
+}
